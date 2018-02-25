@@ -19,7 +19,11 @@
 	</p>&nbsp-->
 	<p>	
 	    <h4>Research Interests</h4> Computer Vision, Deep Learning, Human Pose Estimation.</p>
-
+	    {% if site.resume %}
+		&nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp
+                <!--&nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp-->
+		<a  href="assets/pdf/NIE_Xuecheng_CV.pdf" target="_blank"><i class="fa fa-file-archive-o"></i> &nbsp; CV</a>
+	    {% endif %}
 	    {% if site.email %}
 		<!--<a href="mailto: {{site.email}}"><i class="fa fa-envelope"></i> &nbsp; {{site.email}}</a>-->
 	        <a href="mailto: {{site.email}}"><i class="fa fa-envelope-o"></i> &nbsp; niexuecheng AT u DOT nus DOT edu</a>
@@ -28,11 +32,6 @@
 		&nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp
                 <!--&nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp-->
 		<a  href="https://scholar.google.com.sg/citations?user=h93ctSsAAAAJ&hl=en" target="_blank"><i class="fa fa-graduation-cap"></i> &nbsp; {{site.website}}</a>
-	    {% endif %} 
-	    {% if site.resume %}
-		&nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp
-                <!--&nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp-->
-		<a  href="assets/pdf/NIE_Xuecheng_CV.pdf" target="_blank"><i class="fa fa-file-archive-o"></i> &nbsp; CV</a>
-	    {% endif %} 
+	    {% endif %}   
 	</div>
 </div>
